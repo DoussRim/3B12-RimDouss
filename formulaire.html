@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Formulaire</title>
+</head>
+<body>
+<header></header>
+<content>
+	<fieldset style="align:center">
+	<legend style="color:red">Inscription</legend>
+	<form action="" method="">
+	<label>Nom**:</label>
+	<input type="text" required pattern="[A-Za-z]+" title="Que des lettres"><br>
+	<label>Prenom:</label><input type="text"><br>
+	<label>CIN**:</label><!--<input type="number" min="1" max="8" pattern="{8}"><br>-->
+	<input type="text" pattern="[0-9]{8}" required><br>
+	<label>Email:</label><input type="email" placeholder="@esprit.tn"><br>
+	<label>PWD:</label><input type="password"><br>
+	<ul>Niveau:
+		<li>Master<input type="checkbox"></li>
+		<li>License<input type="checkbox"></li>
+		<li>Ingénieur<input type="checkbox"></li>
+		<li>Bac<input type="checkbox" checked></li>
+	</ul>
+	<label>Genre:</label>
+	Male<input type="radio" name="g" value="m">
+	Female<input type="radio" name="g" value="f">
+	<br>
+	<label>Date Naissance:</label><input type="date" min="01/01/2022"><br>
+	<label>Gouvernerat</label>
+	<select>
+		<option>Tunis</option>
+		<option selected>Mannouba</option>
+		<option>Monastir</option>
+		<option>Ariana</option>
+	</select>
+	
+	<br>
+	<label>Gouvernerat</label>
+	<select multiple>
+		<option>Tunis</option>
+		<option>Mannouba</option>
+		<option>Monastir</option>
+		<option>Ariana</option>
+	</select><br>
+	<label>Hobbies</label>
+	<select>
+		<optgroup label="Musique">
+			<option>Guitar</option>
+			<option>Piano</option>
+		</optgroup>
+		<optgroup label="Sport">
+			<option>Foot</option>
+			<option>Hand</option>
+			<option>Tennis</option>
+		</optgroup>
+	</select><br>
+	<label>Image:</label><input type="file"><br>
+	<label>Couleur:</label><input type="color"><br>
+	<label>LinkedIn:</label><input type="url"><br>
+	<!--Appliquer JAvaScript-->
+	<input type="button" value="s'inscrire" onclick="">
+	<!---->
+	<button>s'inscrire</button>
+	<input type="submit" value="s'inscrire-submit">
+	<input type="reset" value="Annuler">
+	</form>
+	</fieldset>
+</content>
+<footer></footer>
+
+</body>
+</html>
