@@ -1,0 +1,28 @@
+body{
+		font-family: Verdana
+	}
+	h1{
+		font-family: Arial;
+		}
+	header,ul,footer{
+		border: 5px dashed #ea326f;
+		background-color: grey;
+		padding:8px;
+		margin:8px;
+	}
+	.li{ margin-left:15px}
+	/*nav{background-color:white}*/
+	a{ color: white}
+	a:hover{ background-color:red}
+	legend{
+		text-shadow: 2px 2px yellow;
+	}
+	#btn{
+		border:none;
+	}
+	#btn:hover{
+		color:green;
+		background-color:red;
+	}
+	#input:focus{background-color:pink;}
+	#input:active{background-color:yellow;}

@@ -2,6 +2,25 @@
 <head>
 	<title>Accueil</title>
 	<meta charset="UTF8">
+	<link rel="stylesheet" href="../css/style.css">
+	<!--<style>
+	body{
+		font-family: Verdana
+	}
+	h1{
+		font-family: Arial;
+		}
+	header,ul,footer{
+		border: 5px dashed #ea326f;
+		background-color: grey;
+		padding:8px;
+		margin:8px;
+	}
+	.li{ margin-left:15px}
+	/*nav{background-color:white}*/
+	a{ color: white}
+	a:hover{ background-color:red}
+	</style>-->
 </head>
 <!--Comment:Contenu de la page-->
 <body>
@@ -11,19 +30,21 @@
 	<img src="..\images\logo.jpg" width="50" height="50">
 	<br>
 	<!--Barre de navigation-->
+	<nav>
 	<hr>
 	<a href="Ex1.html">Accueil</a>
 	<a href="contact.html">Contact</a>
 	<a href="https://www.jumia.com.tn/" target="_blank">Jumia</a>
 	<a href="#tab1">Tableau</a>
 	<hr>
+	</nav>
 	</header>
-	<content>
+	<content id="c">
 	<h1>contenu de la page</h1>
 	<h2>Liste des étudiants</h2>
-	<ul>
-		<li>Nom:Massoud</li>
-		<li>Prenom: Ahmed</li>
+	<ul id="ul">
+		<li class="li">Nom:Massoud</li>
+		<li class="li">Prenom: Ahmed</li>
 	</ul>
 	<ol>
 		<li> Ahmed Massoud</li>
