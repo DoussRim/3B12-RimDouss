@@ -1,0 +1,50 @@
+body{
+	font-family:Arial;
+	margin: 0px;
+}
+header{
+	background-color: red;
+	color:white;
+}
+.Lien:link{
+	color:white;
+}
+.Lien:visited{
+	color:black;
+}
+.Lien:hover{
+	color:yellow;
+	text-decoration:none;
+}
+.Lien:active{
+	color:green
+}
+input:focus{
+	background-color:yellow
+}
+input:active{
+	background-color:green
+}
+h3{
+	text-decoration:underline;
+	color: red;
+	font-size:50px;
+	margin:10px;
+	padding:10px;
+	
+}
+h3:hover{ 
+text-shadow: 6px 8px 2px blue,5px 5px 9px yellow;
+}
+#form{
+	width:500px;
+	padding:20px;
+	background-color:#f2f2f2;
+	
+}
+button{
+	background-color:#DED983;
+	border:none;
+	font-size:1.2em;
+	color:#345071;
+}
