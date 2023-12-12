@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+	function evenNumber(nbr){
+		return nbr %2 
+	
+	}
+	console.log(evenNumber(2))
+	number=[1,2,3,4,5,6,7,8,9]
+	console.log(number.filter(evenNumber))
+		console.log(number.filter(
+			function evenNumber(nbr){
+			return nbr %2 
+	
+	}
+		))
+		function dernier(tab,n){
+		if(n>tab.length){
+		console.log("Erreur")
+		}
+		else
+		console.log(
+			tab.slice(
+			tab.length-n, tab.length)
+		)
+		}
+		dernier(number,0)
+		dernier(number,3)
+		dernier(number,12)
+    </script>
+</body>
+</html>

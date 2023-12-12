@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+	function Somme(x,y){
+		if (typeof x !== 'number' || typeof y !== 'number' ){
+			return "Erreur!"
+			//alert("Erreur!")
+		}
+		return x+y
+		//alert(x+y)
+	}
+	alert(Somme(5,6))
+	//Somme(5,6)
+	function Multiple(){
+		for (let i=10; i<=1000; i+=10){
+		console.log(i)
+		}
+	}
+	Multiple()
+	function inverse(x,y){
+		var ox=x;
+		x=y;
+		y=ox;
+		console.log("x= "+x+" y= "+y)
+		}
+		var a=prompt("Donnez x");
+		var b=prompt("Donnez y");
+		console.log("x= "+a)
+		console.log("y= "+b)
+		inverse(a,b)
+    </script>
+</body>
+</html>

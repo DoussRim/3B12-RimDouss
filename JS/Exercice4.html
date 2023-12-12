@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+	/*var a="bonjour"
+	b=a.split('')
+	console.log(b)
+	console.log(b.length)
+	console.log(b.reverse())
+	console.log(a.split('').reverse().join(''))
+	
+	function inverseCH(ch){
+		console.log(ch.split('').reverse().join(''))
+		}
+		inverseCH("3INFOB12")*/
+		
+		
+		/*var chaine="bonjour"
+		i=chaine.indexOf("jo")
+		bb=chaine.substring(chaine.length-1)
+		console.log(i)*/
+		function Remplace(ch,c,newC){
+			/*i=0
+			while(i!=-1){
+			i=ch.indexOf(c,i)
+			if(i>=0){
+			console.log(ch.indexOf(c,i))
+			console.log(ch.substring(i+c.length))
+				ch=ch.substring(0,i)+newC+ch.substring(i+c.length)
+			}*/
+			i=ch.indexOf(c)
+			if(i!=-1){
+			ch=ch.replace(c,newC)
+			console.log(ch)
+			}else console.log("Erreur")
+			}
+			//console.log(ch)
+		//}
+		chaine1="Bonjour"
+		chaine2="journée"
+		chaine=" Cours JS dans le module TW1.0"
+		Remplace(chaine,"JS","Java Script")
+		
+    </script>
+</body>
+</html>
